@@ -45,7 +45,7 @@
         - There are 3 ways to traverse an Array
             - With for loops: 
             - With for-each loops: 
-            - 
+            - Other for-each loop
 Go back to the link and read it throught again after class
 Lambda was skipped 
 

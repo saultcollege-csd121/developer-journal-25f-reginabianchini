@@ -14,6 +14,7 @@
     -Object Oriented Programming (OOP) main components = objects
 ### Funtion Signatures:
     - function interface = signature
+
 ### Objects: 
     - State (variable), and behaviour (methods)
     - OOP are built by creating a network structure of objects that will work together. 

@@ -112,5 +112,56 @@
     - Functions definition must specify: visibility, binding, return type, name, type and name of each parameter 
 
     - Ex: public class MyApp {
-        public static void greet(String name) {}
+        public static void greet(String name) {
+            System.out.println("Hello, " + name);
+        }
     }
+
+- Functions (class methods)
+    - Visibility: 
+        - public: function can be called from the outside of class
+        - Private: function can't be accesed from the outside, it needs to be inside the class
+    - Binding: 
+        - static - function is a class method
+        - non-static - function is an instance method
+    - Return type: specify the type of the value returned from the function
+        - Use void if function does not return a value
+    - Function name: 
+        - Function names start with lowercase letter
+    - Parameter list: 
+        - each parameter must have a type and a name
+        - Separate it with a comma
+    - Print to console:
+        - Equivalent to print in python
+    
+- Program Execution: 
+    - begins with the main class method in the executed bytecode file
+    - main method receives argument as an array of String objects
+
+- Static typing: 
+    - Allows the compiler to catch an entore category of bugs before you run the program
+    - Force you to fix type errors 
+    - Better for large software projects
+    - Dinamically typed language allow you to 'ignore' types
+    - More appropriate for prototyping and smaller software projects
+
+- static == compile-time; dinamic == run-time
+    - static: refer to things that are determined at compile-time
+    - dynamic: refer to aspects that are determined at run-time
+
+- Errors: 
+    - Compile-time errors: errors caught during compilation, syntax and type errors are compile-time errors
+        - Often indicated by IDE before compilation
+        - prevent code from being compiled
+        - Ex: Syntax errors
+    - Run-time errors: Errors that occur while the program is running
+        - Happen when the program is running 
+        - Cause program to end  
+        - Ex: file not found, invalid permission
+    - Semantic / logic errors: Errors in program logic / behaviour
+        - Cause unexpected/ incorrect program behaviour
+        - Usually don't cause program to crash
+        - Caused by incorrect logic in program
+
+## Summary: In this class we learned the basic of Java and how it is a static language. We also learned a little bit about the structure, how it starts with main. We also talked about the different types of errors that can occur in a java program. We defined what is a static function and a public and private one too. We talked about objects. 
+
