@@ -139,7 +139,7 @@
     - main method receives argument as an array of String objects
 
 - Static typing: 
-    - Allows the compiler to catch an entore category of bugs before you run the program
+    - Allows the compiler to catch an entire category of bugs before you run the program
     - Force you to fix type errors 
     - Better for large software projects
     - Dinamically typed language allow you to 'ignore' types

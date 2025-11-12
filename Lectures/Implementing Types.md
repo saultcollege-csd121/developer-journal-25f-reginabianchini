@@ -24,7 +24,7 @@
 - Class example - Stopwatch: 
     - instance/class variables always declared directly inside class scope. You can't declare instance/class variables inside a method
     - Convention: methods come after variables in a class definition
-    - Track a time interval 
+    - Responsability: Track a time interval 
     - Abstraction (public interface):
         - start()
         - stop()
